@@ -5,6 +5,9 @@
 
 Deep learning-based semantic segmentation of brain tumors in MRI scans using U-Net architectures with state-of-the-art encoder backbones.
 
+## GradCAM Visualization - EfficientNet-B2
+
+![GradCAM EfficientNet-B2](Project/gradcam_images/u_efficientnet_b2/gradcam_u_efficientnet_b2_sample_279.png)
 ---
 
 ## 📋 Table of Contents
