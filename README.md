@@ -24,9 +24,9 @@ This project implements **binary semantic segmentation** of brain tumors in MRI 
 
 ### Key Highlights
 
-- ✅ **Multiple U-Net Architectures**: ResNet34, EfficientNet-B2, DeepLabV3+ encoders
+- ✅ **Multiple U-Net Architectures**: ResNet34, EfficientNet-B2
 - ✅ **Comprehensive Training Pipeline**: Automated hyperparameter grid search
-- ✅ **Advanced Loss Functions**: Focal + Dice Loss for handling class imbalance
+- ✅ **Advanced Loss Functions**: BCE + Dice Loss
 - ✅ **Model Interpretability**: GradCAM, GradCAM + ABS visualizations
 - ✅ **Experiment Tracking**: Weights & Biases (wandb) integration
 - ✅ **Medical Image Augmentation**: Albumentations for robust training
@@ -37,7 +37,7 @@ This project implements **binary semantic segmentation** of brain tumors in MRI 
 
 ### Training
 - **Automated hyperparameter search** over learning rates, batch sizes, and optimizers
-- **Multiple optimizer support**: Adam, AdamW, SGD with momentum
+- **Multiple optimizer support**: Adam, RMSPROP, SGD and SDG with momentum
 - **Learning rate scheduling**: ReduceLROnPlateau + Warmup for stable training
 - **Early stopping** mechanism to prevent overfitting
 - **Checkpoint management** with automatic best model saving
@@ -47,7 +47,7 @@ This project implements **binary semantic segmentation** of brain tumors in MRI 
 - **Dice Coefficient** (F1-score for segmentation)
 - **Intersection over Union (IoU)** - overall and class-wise
 - **Pixel-wise Accuracy**
-- **Tumor-specific metrics** vs background metrics
+  
 
 ### Visualization & Interpretability
 - **GradCAM heatmaps** for understanding model focus
