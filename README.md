@@ -39,6 +39,9 @@ This project implements **binary semantic segmentation** of brain tumors in MRI 
 
 ### Training
 - **Automated hyperparameter search** over learning rates, batch sizes, and optimizers
+  <img width="945" height="442" alt="Screenshot 2025-11-25 alle 15 14 58" src="https://github.com/user-attachments/assets/0b2a94ad-2a24-4049-bfeb-05aa2d7cea34" />
+
+  
 - **Multiple optimizer support**: Adam, RMSPROP, SGD and SDG with momentum
 - **Learning rate scheduling**: ReduceLROnPlateau + Warmup for stable training
 - **Early stopping** mechanism to prevent overfitting
