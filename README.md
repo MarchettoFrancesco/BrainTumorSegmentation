@@ -130,6 +130,8 @@ conda install -c conda-forge cudatoolkit-dev -y
 | **EfficentNet-B2** | 35 | **0.8885** | **0.8044** | 0.9980 | 0.7037 | 0.7179 | 14m 9s |
 | **ResNet34** | 35 | 0.8838 | 0.7967 | 0.9979 | 0.6989 | 0.7190 | 12m 54s |
 
+<img width="947" height="223" alt="Screenshot 2025-11-25 alle 15 13 22" src="https://github.com/user-attachments/assets/e237f7cc-c51f-4730-8ae4-76f172fc3b34" />
+
 ### Performance Metrics Explained
 
 - **Dice Coefficient**: Measures overlap between prediction and ground truth (higher is better)
