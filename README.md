@@ -4,7 +4,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 
 Deep learning-based semantic segmentation of brain tumors in MRI scans using U-Net architectures with state-of-the-art encoder backbones.
-![MRI](Project/gradcam_images/u_efficientnet_b2/original_u_efficientnet_b2_sample_99.png)
+![MRI](Project/gradcam_images/u_efficientnet_b2/gradcam_u_efficientnet_b2_sample_283.png)
 ---
 
 ## 📋 Table of Contents
